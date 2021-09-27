@@ -9,7 +9,8 @@
           py-4
           px-4 
           bg-white'>
-               <a class='logo' href="#"> FundAfrique </a>
+               
+               <router-link class='logo'  to="/"> FundAfrique </router-link>
        <div class='block sm:hidden'>
        <button @click="toggle"  class='nav-icon  border rounded text-black border-black '>
            <svg
@@ -80,6 +81,9 @@ li {
 ul a{
   color:#373E37;
 }
+ul a:hover{
+  color:#269E26;
+}
 
 .nav-items  div a{
   color:#269E26;
@@ -109,74 +113,5 @@ ul a{
     margin: 10px 0px;
   }
 } 
-/* h3 {
-  margin: 40px 0 0;
-}
-ul {
-  padding: 0;
-}
-li {
-  margin: 0 10px;
-  display:inline-block;
-  list-style-type: none;
-}
-nav{
-     display:flex;
-      flex-wrap: nowrap;
-    justify-content: flex-start;
 
-}
-.nav-items{
-  display:flex;
-flex-grow: 1;
-align-items: center;
-}
-ul{
-  display:flex;    
-  flex-direction: row;
-  margin:0px auto;
-}
-
-.nav-items div{
-  display: flex !important;
-}
-
-ul a{
-  color:#373E37;
-}
-
-.nav-items  div a{
-  color:#269E26;
-}
-.nav-items  div li:nth-child(2) a{
-     background: #269E26;
-     color:#fff;
-     border-radius:20px;
-    padding:10px 20px;
-}
-
-.logo{
-  color: #141414 !important;
-  font-weight:900;
-  font-size: 24px;
-}
-@media only screen and (min-width:100px) and (max-width:500px){
-  .nav-icon{
-    display:block;
-  }
-  .nav-items {
-    display:block;
-  }
-.nav-items  div{
-    display:block !important;
-  }
-  .nav-items ul{
-    display:block;
-  }
-  
-   .nav-items li{
-    display:block;
-    margin: 10px 0px;
-  }
-} */
 </style>
