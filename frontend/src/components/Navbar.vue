@@ -34,7 +34,7 @@
        <div :class=" open ? 'block': 'hidden'" class="w-full  sm:flex sm:items-center sm:w-auto">
          <ul class='nav-items text-sm  text-lg'>
          <li> <router-link to="/explore"> Explore... </router-link> </li> 
-        <li> <a href='#about'> About </a>   </li>
+        <li>  <router-link to="/about"> About </router-link> </li>  
           <li> <router-link to="/donation"> Start a FundAfrique </router-link>  </li>
         <li> <router-link to="/register"> Register my organization </router-link> </li>
           </ul> 
@@ -81,7 +81,7 @@ li {
 ul a{
   color:#373E37;
 }
-ul a:hover{
+ul li a:hover{
   color:#269E26;
 }
 
